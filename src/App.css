@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.list {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 100px;
+  width: 200px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  background-color: #ffffcc; /* Pale yellow background color */
+  margin-bottom: 20px;
+}
+
+.list div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-container {
+  margin-right: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.delete-button {
+  background-color: #ff0000; /* Green button color */
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #c40909; /* Darker green color on hover */
+}
+
+.transfer-button {
+  background-color: #9a5fc0; /* Purple button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.transfer-button:hover {
+  background-color: #8136af; /* Darker purple color on hover */
+}
+
+.add-button {
+  background-color: #0888d7; /* Green button color for add buttons */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.add-button:hover {
+  background-color: #094865; /* Darker green color on hover */
+}
+
+.empty-placeholder {
+  color: #999;
+  font-style: italic;
+}
+.export-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.export-button {
+  background-color: #007bff; /* Bootstrap primary color for the button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.export-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
